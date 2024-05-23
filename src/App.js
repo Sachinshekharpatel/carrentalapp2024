@@ -6,6 +6,7 @@ import LoginPage from "./Components/login-page/loginpage";
 import WelcomePage from "./Components/welcome-page/welcomepage";
 import ContactPage from "./Components/contactpage/contactus";
 import BookingPage from "./Components/booking-page/bookingpage";
+import ChatBox from "./Components/chatboxpage/chatbox";
 const App = () => {
   return (
     <Router>
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/loginpage" element={<LoginPage />} />
         <Route path="/signuppage" element={<SignupPage />} />
         <Route path="/contactuspage" element={<ContactPage />} />
+        <Route path="/chatbox" element={<ChatBox />} />
       </Routes>
     </Router>
   );
